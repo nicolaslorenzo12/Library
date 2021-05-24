@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles/library.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Library</title>
+	</head>
+	<body>
+	<div class= "flex-container">
+		<div id="sides"></div>
+		<div class="middle-container">
+		<nav class="menu2">
+			<ul><li><a class="active" href= "index.html"><i class= "fa fa-fw fa-home"></i>Home</a></li><li><a href= "jl.html"><i class= "fa fa-fw fa-user"></i>Library</a></li></ul>
+		</nav>
+		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+		<input type="text" id="upper">
+			<h1 class= "header">This is nico's library</h1>
+			<p class= "explain"> These are the books that you can find in this library.</p>
+			<table id= "table">
+				<tr>
+					<th>Book</th>
+						<th>Author</th>
+					<th>Availability</th>
+				</tr>
+				<tr>
+					<td>War and Peace</td>
+					<td>Leo Tolstoy</td>
+					<td>✔️</td>	
+				</tr>
+				<tr>
+					<td>Song of Solomon</td>
+					<td>Toni Morrison</td>
+					<td>✔️</td>
+				</tr>
+				<tr>
+					<td>The Shadow of the Wind</td>
+					<td>Carlos Ruiz Zafon</td>
+					<td>❌</td>
+				</tr>
+				<tr>
+					<td>The Lord of the Rings</td>
+					<td>J.R.R. Tolkien</td>
+					<td>✔️</td>
+				</tr>
+				<tr>
+					<td>The Satanic Verses</td>
+					<td>Salman Rushdie</td>
+					<td>❌</td>
+				</tr>
+				<tr>
+					<td>Don Quixote</td>
+					<td>Miguel de Cervantes</td>
+					<td>❌</td>
+				</tr>
+				<tr>
+					<td>The Golden Compass</td>
+					<td>Philip Pullman</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>1984</td>
+					<td>George Orwell</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>The Kite Runner</td>
+					<td>Khaled Hosseini</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>Little Women</td>
+					<td>Louisa May Alcott</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>The Cloud Atlas</td>
+					<td>David Mitchell</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>The Fountainhead</td>
+					<td>Ayn Rand</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>The Picture of Dorian Gray</td>
+					<td>Oscar Wilde</td>
+					<td>✔️</td>
+				</tr>
+			
+				<tr>
+					<td>Lolita</td>
+					<td>Vladimir Nabokov</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>The Help</td>
+					<td>Kathryn Stockett</td>
+					<td>✔️</td>
+				</tr>
+			
+				<tr>
+					<td>The Liar’s Club</td>
+					<td>Mary Karr</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>Moby-Dick</td>
+					<td>Herman Melville</td>
+					<td>❌</td>
+				</tr>
+			
+				<tr>
+					<td>Gravity’s Rainbow</td>
+					<td>Thomas Pynchon</td>
+					<td>✔️</td>
+				</tr>
+			
+				<tr>
+					<td>The Handmaid’s Tale</td>
+					<td>Margaret Atwood</td>
+					<td>✔</td>
+				</tr>
+			
+			</table>
+			<script src="scripts/library.js"></script>
+			<div class="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+		</div>
+		<div id="sides">
+			<div id="events">
+				<h2 class = "headevents">Events</h2>
+				<p class = "parev"><a href="https://www.consciencebibliotheek.be/en" target="_blank">Visit us here on May 14 to meet us.</a></p>
+				<p class = "parev"><a href="https://www.uantwerpen.be/en/library/" target="_blank">Come here on May 21 to listen to one of our talks.</a></p>
+				<p class = "parev"><a href="https://www.permeke.org/bibliotheek" target="_blank">Come here on May 28 to know more about us.</a></p>
+				<br>
+				<br>
+				<p  class = "parev"> Are you interested in the events?, if your answer is not clik the button</p>
+				<div class = "mybutton">
+				<button type="button" onclick="document.getElementById('events').style.display='none'">Click Me!</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
